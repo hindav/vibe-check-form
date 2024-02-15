@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>good vibes form</title>
+    <link rel="stylesheet" href="main1.css">
+</head>
+
+<body>
+    <h1>Good Vibes Form</h1>
+    <form>
+        <form action="submit.html" method="GET">
+        <p id="des">Tell us something that happened to you
+            today.
+        </p>
+        <div class="form-rows">
+            <div class="left">
+                <label for="name">Name</label>
+            </div>
+            <div class="right">
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+        </div>
+
+        <div class="form-rows">
+            <div class="left">
+                <label for="email">Email</label>
+            </div>
+            <div class="right">
+                <input type="email" id="email" placeholder="Enter your email address">
+                <div class="right"></div>
+            </div>
+            <div class="form-rows"> <div class="left">
+                <label for="good">On a scale of 1-10,how
+                    good was it?
+                </label>
+            </div>
+            <div class="right">
+                <input type="number" id="good" placeholder="Enter a number between 1-10">
+            </div>
+        </div>
+        <div class="form-rows">
+            <div class="left">
+                <label for="list">Where did it
+                    happen?
+                </label>
+            </div>
+            <div class="right">
+                <select id="list">
+                    <option value="1">At Home</option>
+                    <option value="2">At My College</option>
+                    <option value="3">Near Home</option>
+                    <option value="4">At Neighborhood</option>
+                    <option value="5">At college library</option>
+                    <option value="6">Near Coffee Break</option>
+                    <option value="7">Near Poster Ground</option>
+                    <option value="8">At Azaad Maidan</option>
+                    <option value="9">At Social Media</option>
+                    <option value="10">At Movie Threter</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-rows">
+            <div class="left">
+                <label>At what time did it happen?</label>
+            </div>
+            <div class="right">
+                <input type="radio" style="height: 8px;" name="time">
+                <p>Morning</p><br>
+                <input type="radio" style="height: 8px;" name="time">
+                <p>Afternoon</p><br>
+                <input type="radio" style="height: 8px;" name="time">
+                <p>Evening</p><br>
+            </div>
+        </div>
+        <div class="form-rows">
+            <div class="left">
+                <label>At what time did it happen?</label>
+            </div>
+            <div class="right">
+                <input type="checkbox" style="height: 8px;" name="emotions">
+                <p>Exited</p><br>
+                <input type="checkbox" style="height: 8px;" name="emotions">
+                <p>Humbled</p><br>
+                <input type="checkbox" style="height: 8px;" name="emotions">
+                <p>Elated</p><br>
+                <input type="checkbox" style="height: 8px;" name="emotions">
+                <p>Loved</p><br>
+                <input type="checkbox" style="height: 8px;" name="emotions">
+                <p>Enthusiatic</p><br>
+            </div>
+        </div>
+        <div class="form-rows">
+            <div class="left">
+                <label for="text">Please describe your positive experience.</label>
+            </div>
+            <div class="right">
+                <textarea id="text" placeholder="Enter your experience here" cols="25" rows="5"></textarea>
+            </div>
+        </div>
+        <div>
+            <BR>
+            <a href="submit.html" id="button">Submit</a>
+        </div>
+        </form>
+    </form>
+
+    <footer>
+        <p>Created by @Hindav</p>
+    </footer>
+</body>
+
+</html>
